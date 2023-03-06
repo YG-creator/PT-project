@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T12:40:47.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="nH-WxoYzP9n6w5YZAOBk" type="github"><diagram name="페이지-1" id="Rzr20Y5jRC29agwVTCeB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-06T12:48:47.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="60YOWFfOFhRQEK0-1UYY" version="21.0.2" type="github">
+  <diagram name="페이지-1" id="Rzr20Y5jRC29agwVTCeB">
+    <mxGraphModel dx="792" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-3" value="ExpirePassesReader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-4" value="ExpirePassesWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-5" value="이용권 만료" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="380" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-8" value="AddPassesTasklet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="550" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-9" value="이용권 일괄 지급" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="420" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RT_ifwKeHMRZYbRb4lxo-10" target="RT_ifwKeHMRZYbRb4lxo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="850" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-11" value="NotificationReader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-12" value="NotificationWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="850" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-15" value="Chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-16" value="Chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-17" value="Chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-18" value="예약 수업 전 알람" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="810" width="550" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1260" width="470" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-20" value="UsePassesReader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1290" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-21" value="AsyncItemProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1375" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-22" value="AsyncItemWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1460" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-23" value="수업 종료 후 이용권 차감" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1220" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RT_ifwKeHMRZYbRb4lxo-24" target="RT_ifwKeHMRZYbRb4lxo-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RT_ifwKeHMRZYbRb4lxo-24" target="RT_ifwKeHMRZYbRb4lxo-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1680" width="210" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-25" value="StatisticsReader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1719" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-26" value="StaticsWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1830" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1680" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1830" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-29" value="DailyStaticsTasklet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1700" width="166" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-30" value="WeeklyStaticsTasklet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1850" width="166" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_ifwKeHMRZYbRb4lxo-33" value="통계 데이터 생성" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1640" width="550" height="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
