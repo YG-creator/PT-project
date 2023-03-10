@@ -28,25 +28,15 @@
 
 
 
-# 기술 스택
+# Environments
 
-* Spring Booot
-* Gradle
-* Spring Batch
-* MySQL 8.0
-* JPA
-* Lombok
-* ModelMapper
-* Docker
-
-
-
-# Branch 전략
-
-* GitHub Flow : 소규모 프로젝트이므로 사용
-  * Main
-  * Feature
-  * Bugfix
+- OpenJDK 18.0.1
+- Spring Boot 2.7.3
+- Gradle
+- MySQL (Docker)
+- JPA
+- lombok
+- ModelMapper
 
 
 
